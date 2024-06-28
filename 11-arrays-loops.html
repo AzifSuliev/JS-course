@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays & Loops</title>
+</head>
+<body>
+  <script>
+    const myArray = [5, 31, 47, 51, 16];
+    console.log(myArray);
+    console.log(myArray[2]);
+    myArray[0] = 10;
+    console.log(myArray[0]);
+    console.log(typeof myArray);
+    console.log(Array.isArray([15, 22]));
+    myArray.push(111);
+    console.log(myArray.length);
+    myArray.splice(3,1);
+    for(let i = 0; i < myArray.length; i++){
+      console.log(myArray[i] + ' ');
+    }
+  </script>
+</body>
+</html>
